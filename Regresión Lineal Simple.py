@@ -14,7 +14,6 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Importar el dataset de Netflix
-# Asegúrate de que el archivo 'netflix_titles.csv' esté en el mismo directorio que este script
 dataset = pd.read_csv('netflix_titles.csv')
 
 # Preprocesamiento de datos:
@@ -61,4 +60,7 @@ plt.xlabel('Año de Lanzamiento')
 plt.ylabel('Duración de la Película (minutos)')
 plt.show()
 
-
+#Conclusion
+#El modelo de regresión lineal simple aplicado al dataset de Netflix permitió analizar si existe una relación entre el año de lanzamiento y la duración de las películas. 
+#Los resultados muestran que esta relación es muy débil, lo que indica que el año no influye significativamente en la duración. 
+#Este análisis ayuda a entender tendencias generales y demuestra cómo aplicar técnicas de regresión a datos reales.
